@@ -1,27 +1,23 @@
-h1, h2, p, li {
-    font-family: Helvetica;
+body {
+    font-family: Georgia;
+    background-image: url(https://cdn.dribbble.com/users/119530/screenshots/3433250/comp4.gif);
   }
 
-img {
-    height: 150px
+
+.header {
+     text-align: center;
   }
-  
-.description {
+
+  .about-me {
     font-size: 20px;
+    opacity: 50%;
+    
   }
 
-  #cook-time {
+  .title {
     font-weight: bold;
   }
 
-  .bullet-points {
-    list-style: square;
-  }
-
-p.time {
-color: gray
-  }
-
-  .external-link {
-    color: SeaGreen;
+  h1 {
+    color: black;
   }
