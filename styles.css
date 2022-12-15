@@ -1,23 +1,126 @@
+/* Universal Styles */
+
 body {
-    font-family: Georgia;
-    background-image: url(https://cdn.dribbble.com/users/119530/screenshots/3433250/comp4.gif);
+    background-image: url(https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_foodlogo.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: auto;
   }
-
-
-.header {
-     text-align: center;
+  
+  a {
+    text-decoration: none;
   }
-
-  .about-me {
-    font-size: 20px;
-    opacity: 50%;
-    
+  
+  /* Navigation */
+  
+  nav {
+    text-align: center;
   }
-
-  .title {
+  
+  nav img {
+    display: block;  
+}
+  
+  nav span {
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 10px 0;
+  }
+  
+  nav a {
+    color: #05A8AA;
     font-weight: bold;
   }
-
-  h1 {
-    color: black;
+  
+  /* Content Container */
+  
+  .content {
+    width: 100%;
+    height: 500px;
+    margin: 10px auto;
+    overflow: scroll;
+  }
+  
+  /* Content Header */
+  
+  .header {
+    
+  
+  }
+  
+  .header h1 {
+    background-color: #05A8AA;
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    width: 68%;
+    margin: auto;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  /* Content Body */
+  
+  .content .body {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .body p {
+    color: #05A8AA;
+    font-weight: 100;
+    line-height: 34px;
+    width: 90%;
+    margin-top: 18px;
+    font-weight: bold;
+  }
+  
+  /* Content Button */
+  
+  .button {
+    border-radius: 4px;
+    color: #05A8AA;
+    display: block;
+    font-weight: 700;
+  }
+  
+  .button:hover {
+    background-color: #05A8AA;
+    border: 1px solid #05A8AA;
+    color: #FFF;
+  }
+  
+  /* Content Nutrition */
+  
+  ul.nutrition {
+    padding: 20px;
+  }
+  
+  ul.nutrition li {
+    display: inline-block;
+    background-color: #05A8AA;
+    list-style: none;
+    width: 200px;
+    padding: 10px 20px;
+    margin-bottom: 3px;
+  }
+  
+  .nutrition .category {
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: block;
+  }
+  
+  .nutrition .value {
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 2px;
   }
