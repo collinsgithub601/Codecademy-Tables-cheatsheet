@@ -1,0 +1,70 @@
+html {
+    display: block;
+}
+
+head {
+    display: none;
+}
+
+title {
+    display: none;
+}
+
+link {
+    display: none;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg);
+    text-align: center;
+    font-size: 100px;
+    color: Khaki;
+}
+
+#brush {
+    background-color: MediumSpringGreen;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+h1, h2, h3, p {
+    font-family: Helvetica;
+}
+
+p {
+display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.price {
+    color: Blue;
+    font-weight: bold;
+}
+
+#frame {
+    background-color: LightCoral;
+}
+
+.item h2 {
+color: white;
+    font-size: 32px;
+}
+
+#paint {
+    background-color: SkyBlue;
+}
